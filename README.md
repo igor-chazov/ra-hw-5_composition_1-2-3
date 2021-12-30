@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+<a name="top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 5. Домашнее задание к лекции «Композиция компонентов»
 
-## Available Scripts
+[[GithubPages](https://igor-chazov.github.io/ra-hw-5_composition_1-2-3)]
 
-In the project directory, you can run:
+---
 
-### `npm start`
+**Перейти к:**  
+***[5.2 Декомпозиция](#5.2)  
+[5.3 Collapse*](#5.3)***
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 5.1 Карточки
 
-### `npm test`
+Вам необходимо реализовать компонент карточек, позволяющий использовать себя следующим образом:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![](./assets/card1.png)
 
-### `npm run build`
+![](./assets/card2.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+В качестве CSS вы можете использовать Bootstrap, а подглядеть генерируемую разметку можете на странице: https://getbootstrap.com/docs/4.3/components/card/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Подсказка: используйте для этого `props.children` и `props` для отображения картинки.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## <a name="5.2">5.2 Декомпозиция</a>
+***[(наверх)](#top)***
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Вы работаете в стартапе, который решил тягаться с самим Яндексом в части предоставления контента. Это, конечно же шутка, но задача нешуточная.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Вам принесли дизайн-макет, похожий на этот:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![](./assets/decomposition.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Что вам нужно сделать:
 
-## Learn More
+1. Разбейте весь интерфейс на компоненты и в файле каждого компонента напишите буквально одну строку комментария, за что данный компонент отвечает (можете использовать формат JSDoc, подсмотреть можно, например, у ребят из Alfa Laboratory: https://github.com/alfa-laboratory/arui-feather/blob/v16.0.0/src/dropdown/dropdown.jsx).
+1. Постарайтесь повторящиеся компоненты сделать настраемыми за счёт `props`. Допустим, у каждой новости в списке новостей: иконка, текст и ссылка.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Функциональность и стилизацию реализовывать не нужно, достаточно базового оформления (чтобы видно было все блоки).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## <a name="5.3">5.3 Collapse*</a>
+***[(наверх)](#top)***
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Вам поручено реализовать аналог компонента Collapse (https://digital.alfabank.ru/components/collapse).
 
-### Analyzing the Bundle Size
+Обратите ключевое внимание на следующие `props`:
+* `collapsedLabel`
+* `expandedLabel`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Если значения этих `props` не переданы, то они принимают значения по умолчанию `Развернуть` (для `collapsedLabel`) и `Свернуть` (для `expandedLabel`).
 
-### Making a Progressive Web App
+Попробуйте также реализовать анимацию с помощью CSS.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
