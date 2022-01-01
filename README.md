@@ -2,7 +2,7 @@
 
 # 5. Домашнее задание к лекции «Композиция компонентов»
 
-[[GithubPages](https://igor-chazov.github.io/ra-hw-5_composition_1-2-3)]
+[![Build status](https://ci.appveyor.com/api/projects/status/emnds7ppt8jc4a6h?svg=true)](https://ci.appveyor.com/project/igor-chazov/ra-hw-5-composition-1-2-3) [[GithubPages](https://igor-chazov.github.io/ra-hw-5_composition_1-2-3)]
 
 ---
 
