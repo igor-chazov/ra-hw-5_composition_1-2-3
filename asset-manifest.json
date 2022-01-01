@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ra-hw-5_composition_1-2-3/static/css/main.17e439e6.css",
+    "main.js": "/ra-hw-5_composition_1-2-3/static/js/main.174f2934.js",
+    "static/media/card-4.jpg": "/ra-hw-5_composition_1-2-3/static/media/card-4.27c195320aad08b51f6a.jpg",
+    "static/media/card-1.jpg": "/ra-hw-5_composition_1-2-3/static/media/card-1.678eeb786b97159af552.jpg",
+    "static/media/card-3.jpg": "/ra-hw-5_composition_1-2-3/static/media/card-3.44e18fd06a91ff6c1a09.jpg",
+    "static/media/Montserrat-Regular.woff2": "/ra-hw-5_composition_1-2-3/static/media/Montserrat-Regular.4d9eac545dbd8e6e6e7d.woff2",
+    "static/media/Montserrat-Regular.woff": "/ra-hw-5_composition_1-2-3/static/media/Montserrat-Regular.2f9bb87d767918726ee3.woff",
+    "static/media/card-2.jpg": "/ra-hw-5_composition_1-2-3/static/media/card-2.fd2f29d3f9e065dd7934.jpg",
+    "index.html": "/ra-hw-5_composition_1-2-3/index.html",
+    "main.17e439e6.css.map": "/ra-hw-5_composition_1-2-3/static/css/main.17e439e6.css.map",
+    "main.174f2934.js.map": "/ra-hw-5_composition_1-2-3/static/js/main.174f2934.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17e439e6.css",
+    "static/js/main.174f2934.js"
+  ]
+}
